@@ -1,0 +1,29 @@
+# Build and cache
+/build/
+/build-*/
+/.cache/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+CMakeFiles.rel
+
+# Misc
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+/.vscode/
+*.log
+
+# Tests and coverage
+/coverage/
+/CTestTestfile.xml
+/Tests/*/CMakeFiles/
+
+# IDE/editor
+*.swp
+*.swo
+*.user
+*.sublime-workspace

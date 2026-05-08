@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Prime Differences
+message: >-
+  If you use this software, please cite using the metadata
+  from this file.
+type: software
+authors:
+  - given-names: David
+    family-names: Paul
+    affiliation: 'The University of New England, Australia'
+    email: David.Paul@une.edu.au
+    orcid: 'https://orcid.org/0000-0002-2428-5667'
+repository-code: 'https://github.com/davidjohnpaul/prime-differences'
+url: 'https://github.com/davidjohnpaul/prime-differences'
+abstract: >
+  A high-performance, multi-threaded C++ utility designed to
+  count occurrences of specific prime differences over
+  massive ranges.
+keywords:
+  - prime-differences
+  - C++
+  - doctest
+  - CLI
+license: BSD-2-Clause
+version: 1.6.0
+date-released: '2026-05-07'

@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-clang-format
+    rev: v22.1.4
+    hooks:
+      - id: clang-format
+        name: clang-format
+        # Target C/C++ source/header files
+        files: \.(cpp|cc|cxx|hpp|hh|h)$
+        # Use the project's .clang-format (style=file)
+        args: [--style=file]
